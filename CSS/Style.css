@@ -1,78 +1,59 @@
-*{
-    margin: 0px; padding: 0px;
-    box-sizing: border-box;
+body {
+    background-image: url(../Multimedia/Images/background01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
 }
 
-#container {
-    background-color: cyan;
-    width: 100%;
+
+.margin-label{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.imputstyle{
+    margin: 10px 0px;
+}
+
+.lista {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.lista li {
+    margin: 0px 50px;
+
+}
+
+.lista li a {
+    color: darkcyan;
+    text-decoration: none;
+    transition: all;
+}
+
+.lista li a:hover {
+    color: red;
+
+}
+
+/*.fondo-inicio h1 {
+    background-color: rgba(0, 0, 0, 0.441);
+}
+.fondo-inicio h2 {
+    background-color: rgba(0, 0, 0, 0.441);
+}
+.fondo-inicio p {
+    background-color: rgba(0, 0, 0, 0.441);
+    width: 40%;
+}
+*/
+.fondo-inicio {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: absolute;
-    z-index: 0;
-    box-sizing: border-box;
-
-    
-}
-
-.background-main {
-    width: 100%;
-    position: relative;
-    z-index: 100;
-    background-image: url(../Multimedia/Images/fondo-2.jpeg);
-    background-position: 100%;
-    
-}
-
-.imagen {
-    width: 100%;
-    position: relative;
-    z-index: 200;
-    display: flex;
-    justify-content: center;
-
-    box-sizing: border-box;
-
-}
-
-.paciente-cero {
-    width: 70%;
-    position: absolute;
-    z-index: 300;
-    text-align: center;
-
-}
-
-.cuerpo {
-    width: 100%;
-    position: relative;
-    z-index: 400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-    overflow: hidden;
-    background-color: red;
-    
-    
-}
-
-.cuerpo h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-    background-color: cyan;
-    
-
-}
-.cuerpo2 {
-    width: 100%;
-    position: relative;
-    z-index: 500;
-    text-align: center;
-    margin-top: 20%;
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black;
 }

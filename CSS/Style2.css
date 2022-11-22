@@ -1,0 +1,78 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: cyan;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.background-main {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    background-image: url(../Multimedia/Images/fondo-2.jpeg);
+    background-position: 100%;
+    
+}
+
+.imagen {
+    width: 100%;
+    position: relative;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+}
+
+.paciente-cero {
+    width: 70%;
+    position: absolute;
+    z-index: 300;
+    text-align: center;
+
+}
+
+.cuerpo {
+    width: 100%;
+    position: relative;
+    z-index: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    overflow: hidden;
+    background-color: red;
+    
+    
+}
+
+.cuerpo h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-color: cyan;
+    
+
+}
+.cuerpo2 {
+    width: 100%;
+    position: relative;
+    z-index: 500;
+    text-align: center;
+    margin-top: 20%;
+}
