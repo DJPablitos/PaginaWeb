@@ -1,0 +1,133 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Multimedia/Images/background01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-image: url(../Multimedia/Images/pizzas-header.png);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.margin-label{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.imputstyle{
+    margin: 10px 0px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lista li {
+    margin: 0px 50px;
+    
+}
+
+.lista li a {
+    color: white;
+    text-decoration: none;
+    transition: all;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.lista li a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.cartilla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1245px){
+    .imagen {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 995px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .cartilla {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imagen .lista{
+        display: flex;
+        flex-direction: column;
+    }
+    .lista li {
+        margin: 10px 0px;
+    }
+}
+
+.fondo-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 200px;
+    margin-top: 20px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+}
